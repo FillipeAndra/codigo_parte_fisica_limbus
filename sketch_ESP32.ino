@@ -5,10 +5,10 @@
 
 #define SERIAL_PORT    1  // Porta Serial do ESP32 (pode ser UART1 ou outra)
 #define BAUD_RATE      9600  // Taxa de comunicação serial
-#define API_URL        "http://18.231.161.105:8000/home/"  // URL da sua API
+#define API_URL        "http://18.231.161.105:8000/home/"  // URL da API
 
-const char* ssid = "NET_2GB984B2";       // Substitua pelo nome da sua rede Wi-Fi
-const char* password = "19B984B2";  // Substitua pela sua senha de Wi-Fi
+const char* ssid = "NET_2GB984B2";       // Nome da rede Wi-Fi
+const char* password = "19B984B2";  // Senha de Wi-Fi
 
 HardwareSerial mySerial(1);  // Use o UART1 (pode ser UART0, UART1, ou UART2 dependendo da sua configuração)
 
